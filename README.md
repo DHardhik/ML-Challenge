@@ -11,7 +11,6 @@ It was developed as part of the **Kaggle Challenge: [Medical Equipments Cost Pre
 
 ## 📂 Repository Structure
 
-
 ---
 
 ## 🚀 Project Overview
