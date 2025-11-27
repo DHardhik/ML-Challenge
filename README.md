@@ -1,17 +1,16 @@
-# ML-Challenge
+# 🧠 AIT 511 — Machine Learning | IIIT Bangalore  
+### 📂 ML Challenge Repository — *Project Katakam*
 
-# 🏥 Medical Equipments Cost Prediction Challenge
-
-### 📘 AIT 511 — Machine Learning | IIIT Bangalore
-
-This project predicts **transportation costs** for delivering medical equipment to hospitals using machine learning techniques.  
-It was developed as part of the **Kaggle Challenge: [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)**.
-
+This repository contains **three Kaggle Machine Learning challenges** completed as part of **AIT 511 (Machine Learning)** at **IIIT Bangalore**.  
+Each project focuses on a different ML problem: **binary classification, multiclass classification, and regression**.
 ---
 
 ## 📂 Repository Structure
 
 ---
+# 🏥 Medical Equipments Cost Prediction Challenge
+This project predicts **transportation costs** for delivering medical equipment to hospitals using machine learning techniques.  
+It was developed as part of the **Kaggle Challenge: [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)**.
 
 ## 🚀 Project Overview
 
@@ -76,42 +75,128 @@ We applied several regression techniques and compared their performance using **
 
 ---
 
-## ⚙️ Technologies Used
+# 🅐 Start-up Founder Retention Prediction  
+**Assignment 2: Binomial Classification**
 
-- **Python 3.10+**
-- **Libraries:**
-  - `pandas`, `numpy`, `matplotlib`, `seaborn`
-  - `scikit-learn`
-  - `xgboost`
-- **Kaggle API** for data access and submission
+## 🎯 Objective
+To predict whether a **startup founder will stay with or leave** their startup based on personal, professional, and organizational attributes.
+
+## 📊 Dataset
+- `train.csv`: **59,611 × 24**
+- `test.csv`: **14,900 × 23**
+- **Target:** `retention_status`
+
+## 🔍 Key Features
+- Founder age, gender  
+- Years with startup  
+- Monthly revenue generated  
+- Work-life balance rating  
+- Funding rounds led  
+- Education background  
+- Startup stage  
+- Leadership scope  
+- Startup reputation  
+- Founder visibility  
+
+## ⚙️ Data Preprocessing
+- **Numerical Missing Values:** Filled using **Median**
+- **Categorical Missing Values:** Filled using **Mode / "Unknown"**
+- **Scaling:** StandardScaler
+- **Encoding:** One-Hot Encoding
+
+## 📊 Exploratory Data Analysis
+- Boxplots for outlier detection  
+- Histograms for feature distribution  
+- Violin plots for group comparison  
+- Correlation heat maps for numeric relationships  
+
+### Key Insight:
+> Numeric features alone show **weak separation** between retention classes → retention is influenced by **multi-feature interactions**.
+
+## 🤖 Models Implemented
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- K-Nearest Neighbors (KNN) ✅ **Best**
+- Naive Bayes  
+- XGBoost  
+- Multi-Layer Perceptron (MLP)
+- Stacking & Ensemble Methods  
+
+## 🏆 Best Model
+- **K-Nearest Neighbors (KNN)**
+- **Best Kaggle Score:** **0.749**
+- Feature-scaled input with optimized neighbors
 
 ---
 
-## 📈 Key Insights
+# 🅑 Multidimensional Personality Cluster Prediction  
+**Assignment 2: Multinomial Classification**
 
-- Feature engineering for date variables improved performance significantly.
-- Elastic Net provided the best trade-off between complexity and generalization.
-- AdaBoost and Ridge performed decently but tended to overfit with too many estimators.
-- Random Forest and XGBoost required heavy tuning but were less effective for this dataset.
+## 🎯 Objective
+To predict an individual's **personality cluster (A–E)** based on behavioral and lifestyle attributes.
+
+## 📊 Dataset
+- `train.csv`: **1,913 × 14**
+- `test.csv`: **479 × 13**
+- **Target:** `personality_cluster`
+
+## 🧮 Feature Categories
+- **Numerical:** age group, upbringing influence, focus intensity, consistency score  
+- **Binary:** identity code, external guidance usage  
+- **Categorical:** cultural background (numerically encoded)
+
+## 🔬 Feature Engineering
+- Focus squared  
+- Log focus  
+- Focus–consistency interaction  
+- Activity strength  
+- Stability mean  
+- Guidance ratio  
+
+## ⚙️ Preprocessing
+- Scaling: Standard, Min–Max, Robust  
+- Encoding: One-Hot & Label Encoding  
+- Missing Values: None  
+
+## 📊 EDA Highlights
+- Strong positive correlation between **consistency score and Cluster E**
+- Heavy class overlap → **non-linear decision boundaries**
+- Most features show **low linear separability**
+
+## 🤖 Models Implemented
+- Support Vector Machine (RBF Kernel)
+- Multi-Layer Perceptron (MLP) ✅ **Best**
+- Logistic Regression
+- Naive Bayes
+- Neural Network K-Fold
+- Ensemble Models
+
+## 🏆 Best Model
+- **MLP (256, 128, 64) with Label Encoding**
+- **Best Leaderboard Score:** **0.627**
 
 ---
 
 ## 👩‍💻 Team Members
 
+Team Name: Project katakam
 | Name | Roll No | Role |
 |------|----------|------|
 | **Katakam Shashidhar Sai** | IMT2023567 | Team Leader |
 | Mohit Jagini | IMT2023528 | Member |
 | Hardhik Dhavala | IMT2023579 | Member |
 
-📧 Contact: [katakam.shashidhar@iiitb.ac.in](mailto:katakam.shashidhar@iiitb.ac.in)
+📧 Team Lead Contact: [katakam.shashidhar@iiitb.ac.in](mailto:katakam.shashidhar@iiitb.ac.in)
 
 ---
 
 ## 📎 References
 
-1. Kaggle Challenge — [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)
-2. Project Repository — [GitHub Link](https://github.com/DHardhik/ML-Challenge)
+1. Kaggle Challenge
+      — [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)
+      - [Start-up Founder Retention Prediction](https://www.kaggle.com/competitions/start-up-founder-retention-prediction)
+      - [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/multidimensional-personality-cluster-prediction)
+3. Project Repository — [GitHub Link](https://github.com/DHardhik/ML-Challenge)
 
 ---
 
@@ -126,5 +211,5 @@ The final model (`ElasticNetCV`) was saved and used to generate the submission f
    ```bash
    git clone https://github.com/yourusername/Medical-Cost-Prediction-Challenge.git
    cd Medical-Cost-Prediction-Challenge
-2. Open Medical Cost prediction challenge Jupyter Notebook
+2. Open chosen challenge Jupyter Notebook
 3. Change the train and test data set file paths for Data Processing arc and Model Training Arc too.
