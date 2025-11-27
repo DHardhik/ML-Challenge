@@ -75,6 +75,53 @@ We applied several regression techniques and compared their performance using **
 
 ---
 
+# 🅑 Multidimensional Personality Cluster Prediction  
+**Assignment 2: Multinomial Classification**
+
+## 🎯 Objective
+To predict an individual's **personality cluster (A–E)** based on behavioral and lifestyle attributes.
+
+## 📊 Dataset
+- `train.csv`: **1,913 × 14**
+- `test.csv`: **479 × 13**
+- **Target:** `personality_cluster`
+
+## 🧮 Feature Categories
+- **Numerical:** age group, upbringing influence, focus intensity, consistency score  
+- **Binary:** identity code, external guidance usage  
+- **Categorical:** cultural background (numerically encoded)
+
+## 🔬 Feature Engineering
+- Focus squared  
+- Log focus  
+- Focus–consistency interaction  
+- Activity strength  
+- Stability mean  
+- Guidance ratio  
+
+## ⚙️ Preprocessing
+- Scaling: Standard, Min–Max, Robust  
+- Encoding: One-Hot & Label Encoding  
+- Missing Values: None  
+
+## 📊 EDA Highlights
+- Strong positive correlation between **consistency score and Cluster E**
+- Heavy class overlap → **non-linear decision boundaries**
+- Most features show **low linear separability**
+
+## 🤖 Models Implemented
+- Support Vector Machine (RBF Kernel)
+- Multi-Layer Perceptron (MLP) ✅ **Best**
+- Logistic Regression
+- Naive Bayes
+- Neural Network K-Fold
+- Ensemble Models
+
+## 🏆 Best Model
+- **MLP (256, 128, 64) with Label Encoding**
+- **Best Leaderboard Score:** **0.627**
+
+---
 # 🅐 Start-up Founder Retention Prediction  
 **Assignment 2: Binomial Classification**
 
@@ -126,55 +173,6 @@ To predict whether a **startup founder will stay with or leave** their startup b
 - **K-Nearest Neighbors (KNN)**
 - **Best Kaggle Score:** **0.749**
 - Feature-scaled input with optimized neighbors
-
----
-
-# 🅑 Multidimensional Personality Cluster Prediction  
-**Assignment 2: Multinomial Classification**
-
-## 🎯 Objective
-To predict an individual's **personality cluster (A–E)** based on behavioral and lifestyle attributes.
-
-## 📊 Dataset
-- `train.csv`: **1,913 × 14**
-- `test.csv`: **479 × 13**
-- **Target:** `personality_cluster`
-
-## 🧮 Feature Categories
-- **Numerical:** age group, upbringing influence, focus intensity, consistency score  
-- **Binary:** identity code, external guidance usage  
-- **Categorical:** cultural background (numerically encoded)
-
-## 🔬 Feature Engineering
-- Focus squared  
-- Log focus  
-- Focus–consistency interaction  
-- Activity strength  
-- Stability mean  
-- Guidance ratio  
-
-## ⚙️ Preprocessing
-- Scaling: Standard, Min–Max, Robust  
-- Encoding: One-Hot & Label Encoding  
-- Missing Values: None  
-
-## 📊 EDA Highlights
-- Strong positive correlation between **consistency score and Cluster E**
-- Heavy class overlap → **non-linear decision boundaries**
-- Most features show **low linear separability**
-
-## 🤖 Models Implemented
-- Support Vector Machine (RBF Kernel)
-- Multi-Layer Perceptron (MLP) ✅ **Best**
-- Logistic Regression
-- Naive Bayes
-- Neural Network K-Fold
-- Ensemble Models
-
-## 🏆 Best Model
-- **MLP (256, 128, 64) with Label Encoding**
-- **Best Leaderboard Score:** **0.627**
-
 ---
 
 ## 👩‍💻 Team Members
