@@ -165,26 +165,14 @@ To predict whether a **startup founder will stay with or leave** their startup b
 - **K-Nearest Neighbors (KNN)**
 - **Best Kaggle Score:** **0.749**
 - Feature-scaled input with optimized neighbors
----
 
-## 👩‍💻 Team Members
-
-Team Name: Project katakam
-| Name | Roll No | Role |
-|------|----------|------|
-| **Katakam Shashidhar Sai** | IMT2023567 | Team Leader |
-| Mohit Jagini | IMT2023528 | Member |
-| Hardhik Dhavala | IMT2023579 | Member |
-
-📧 Team Lead Contact: [katakam.shashidhar@iiitb.ac.in](mailto:katakam.shashidhar@iiitb.ac.in)
+# 🌴 Spatial Analysis of Tree Data Analysis
 
 ---
 
 ## 📎 References
-
-1. Kaggle Challenge
-
-      — [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)
+Kaggle Links:
+      - [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)
       - [Start-up Founder Retention Prediction](https://www.kaggle.com/competitions/start-up-founder-retention-prediction)
       - [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/multidimensional-personality-cluster-prediction)
       - [Tree Dataset](https://www.kaggle.com/datasets/yashdogra/treeseu)
