@@ -1,15 +1,6 @@
-# 🧠 AIT 511 — Machine Learning | IIIT Bangalore
-# AID 843 - Spatio Temporal Data Analytics
-### 📂 ML Challenge Repository — *Project Katakam*
+### 📂 ML Challenge Repository
 
-This repository contains **three Kaggle Machine Learning challenges** completed as part of **AIT 511 (Machine Learning)** at **IIIT Bangalore**.  
-Each project focuses on a different ML problem: **binary classification, multiclass classification, and regression**.
----
-
-## 📂 Repository Structure
-
----
-# 🏥 Medical Equipments Cost Prediction Challenge
+# 🏥 01_Medical Equipments Cost Prediction Challenge
 This project predicts **transportation costs** for delivering medical equipment to hospitals using machine learning techniques.  
 It was developed as part of the **Kaggle Challenge: [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)**.
 
@@ -76,7 +67,7 @@ We applied several regression techniques and compared their performance using **
 
 ---
 
-# 🅑 Multidimensional Personality Cluster Prediction  
+# 🅑 02_Multidimensional Personality Cluster Prediction  
 **Assignment 2: Multinomial Classification**
 
 ## 🎯 Objective
@@ -123,7 +114,7 @@ To predict an individual's **personality cluster (A–E)** based on behavioral a
 - **Best Leaderboard Score:** **0.627**
 
 ---
-# 🅐 Start-up Founder Retention Prediction  
+# 🅐 03_Start-up Founder Retention Prediction  
 **Assignment 2: Binomial Classification**
 
 ## 🎯 Objective
@@ -192,17 +183,11 @@ Team Name: Project katakam
 ## 📎 References
 
 1. Kaggle Challenge
+
       — [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/Medical-Equipments-Cost-Prediction-Challenge)
       - [Start-up Founder Retention Prediction](https://www.kaggle.com/competitions/start-up-founder-retention-prediction)
       - [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/multidimensional-personality-cluster-prediction)
-3. Project Repository — [GitHub Link](https://github.com/DHardhik/ML-Challenge)
-
----
-
-## 🏁 Final Output
-
-The final model (`ElasticNetCV`) was saved and used to generate the submission file:
-
+      - [Tree Dataset](https://www.kaggle.com/datasets/yashdogra/treeseu)
 ---
 ## 🧩 How to Run
 
