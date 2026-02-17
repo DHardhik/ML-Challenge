@@ -166,7 +166,7 @@ To predict whether a **startup founder will stay with or leave** their startup b
 - **Best Kaggle Score:** **0.749**
 - Feature-scaled input with optimized neighbors
 
-# 🌴 Spatial Analysis of Tree Data Analysis
+# 🌴 Spatial Analysis of Tree Data set
 
 ---
 
