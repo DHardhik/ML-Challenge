@@ -1,4 +1,5 @@
-# 🧠 AIT 511 — Machine Learning | IIIT Bangalore  
+# 🧠 AIT 511 — Machine Learning | IIIT Bangalore
+# AID 843 - Spatio Temporal Data Analytics
 ### 📂 ML Challenge Repository — *Project Katakam*
 
 This repository contains **three Kaggle Machine Learning challenges** completed as part of **AIT 511 (Machine Learning)** at **IIIT Bangalore**.  
