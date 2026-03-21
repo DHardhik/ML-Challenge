@@ -167,7 +167,9 @@ To predict whether a **startup founder will stay with or leave** their startup b
 - Feature-scaled input with optimized neighbors
 
 # 🌴 Spatial Analysis of Tree Data set
-
+Part of our course project (STDA - 1, A1)
+# ❤️ Heart Disease and Stroke Mortality (2000–2019)
+Part of our course project (STDA - 1, A2)
 ---
 
 ## 📎 References
@@ -176,6 +178,7 @@ Kaggle Links:
       - [Start-up Founder Retention Prediction](https://www.kaggle.com/competitions/start-up-founder-retention-prediction)
       - [Medical Equipments Cost Prediction](https://www.kaggle.com/competitions/multidimensional-personality-cluster-prediction)
       - [Tree Dataset](https://www.kaggle.com/datasets/yashdogra/treeseu)
+      - [Heart Disease](https://www.kaggle.com/datasets/irakozekelly/heart-disease-and-stroke-mortality-20002019)
 ---
 ## 🧩 How to Run
 
